@@ -398,6 +398,10 @@
 
 
 @media (max-width: 800px) {
+  .gallery-section {
+    padding: 3rem 1rem;
+  }
+
   .card-overlay {
     display: none; 
   }
