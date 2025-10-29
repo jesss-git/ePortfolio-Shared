@@ -391,6 +391,10 @@
 
 
 @media (min-width: 801px) {
+  .gallery-section {
+    padding: 3rem 1rem;
+  }
+  
   .card-description {
     display: none;
   }
