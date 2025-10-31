@@ -353,7 +353,7 @@
   .gallery-section {
     padding: 4rem 2rem 10rem;
   }
-  
+
   .gallery-grid {
     gap: 1.8rem;
     row-gap: 4rem;
@@ -386,7 +386,7 @@
     max-width: 400px;
   }
   .gallery-section {
-    padding: 3rem 1rem;
+    padding: 4rem 2rem 8rem;
   }
   .card-image img {
     height: 240px;
