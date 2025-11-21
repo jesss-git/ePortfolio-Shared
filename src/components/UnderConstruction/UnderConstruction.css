@@ -23,23 +23,11 @@
   width: 45.75vw;
   height: 91.25vh;
   left: 44.5vw;
-  top: 8.8vh;
+  bottom: 0;
+  top: auto;
   z-index: 2;
   object-fit: contain;
 }
-
-/* When the screen becomes taller than the design */
-@media screen and (max-aspect-ratio: 1440/818) {
-  .uc-goose {
-    width: 70vw;
-    height: auto;       /* Fill screen height */
-    top: auto;
-    bottom: 0;           /* Attach to bottom */
-    left: 40%;           /* approximate centering */
-    /* transform: translateX(-20%); adjust until visually correct */
-  }
-}
-
 
 /* Construction Tape */
 .uc-tape {
@@ -63,3 +51,54 @@
   object-fit: contain;
 }
 
+/* ==========================
+   TABLET (approx < 1024px)
+========================== */
+@media (max-width: 1024px) {
+
+  /* Goose grows and shifts down */
+  .uc-goose {
+    width: 55vw;
+    height: auto;
+    left: 35vw;
+    bottom: 0;
+    top: auto; 
+  }
+
+}
+
+
+
+/* ==========================
+   MOBILE (approx < 600px)
+========================== */
+@media (max-width: 600px) {
+
+  /* Goose centered and larger */
+  .uc-goose {
+    width: auto;
+    height: 60vh;
+    left: 30%;
+    bottom: 0;
+    top: auto;
+  }
+
+  /* Text moves above goose */
+  .uc-text {
+    width: 80vw;
+    height: auto;
+    left: 10vw;
+    top: 20vh;
+  }
+}
+
+
+/* @media screen and (max-aspect-ratio: 1440/818) {
+  .uc-goose {
+    width: 70vw;
+    height: auto;       
+    top: auto;
+    bottom: 0;           
+    left: 40%;           
+  }
+} */
