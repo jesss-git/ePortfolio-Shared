@@ -51,7 +51,7 @@
   object-fit: contain;
 }
 
-@media screen and (max-aspect-ratio: 1300/818) {
+@media screen and (max-aspect-ratio: 1440/818) {
   .uc-goose {
     width: 50vw;
     height: auto;       
