@@ -31,11 +31,11 @@
 
 @media screen and (max-aspect-ratio: 1440/818) {
   .uc-goose {
-    width: 45vw;
+    width: 50vw;
     height: auto;       
     top: auto;
     bottom: 0;           
-    left: 43vw;           
+    left: 45vw;           
   }
 }
 
