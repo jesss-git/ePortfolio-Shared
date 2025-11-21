@@ -78,7 +78,7 @@
   .uc-goose {
     width: auto;
     height: 60vh;
-    left: 15%;
+    left: 20%;
     bottom: 0;
     top: auto;
   }
@@ -88,7 +88,7 @@
     width: 70vw;
     height: auto;
     left: 10vw;
-    top: 12vh;
+    top: 15vh;
   }
 }
 
