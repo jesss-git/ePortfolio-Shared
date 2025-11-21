@@ -68,10 +68,30 @@
   }
 }
 
+@media (max-width: 1024px) {
+
+  /* Goose grows and shifts down */
+  .uc-goose {
+    width: 60vw;
+    height: auto;
+    left: 35vw;
+    bottom: 0;
+    top: auto;
+  }
+  
+  .uc-text {
+    width: 40vw;
+    height: auto;
+    left: 10vw;
+    top: 25vh;
+  }
+  
+}
+
 /* ==========================
    TABLET (approx < 1024px)
 ========================== */
-@media (max-width: 1024px) {
+@media (max-width: 815px) {
 
   /* Goose grows and shifts down */
   .uc-goose {
