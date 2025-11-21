@@ -32,7 +32,7 @@
 @media screen and (max-aspect-ratio: 1440/818) {
   .uc-goose {
     width: auto;
-    height: 100vh;       /* Fill screen height */
+    height: 91.25vh;       /* Fill screen height */
     top: auto;
     bottom: 0;           /* Attach to bottom */
     left: 50%;           /* approximate centering */
