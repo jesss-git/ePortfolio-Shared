@@ -31,11 +31,11 @@
 /* When the screen becomes taller than the design */
 @media screen and (max-aspect-ratio: 1440/818) {
   .uc-goose {
-    width: 45.75vw;
+    width: 70vw;
     height: auto;       /* Fill screen height */
     top: auto;
     bottom: 0;           /* Attach to bottom */
-    left: 50%;           /* approximate centering */
+    left: 40%;           /* approximate centering */
     /* transform: translateX(-20%); adjust until visually correct */
   }
 }
