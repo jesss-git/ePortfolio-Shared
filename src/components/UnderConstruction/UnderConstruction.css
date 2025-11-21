@@ -29,16 +29,6 @@
   object-fit: contain;
 }
 
-@media screen and (max-aspect-ratio: 1440/818) {
-  .uc-goose {
-    width: 50vw;
-    height: auto;       
-    top: auto;
-    bottom: 0;           
-    left: 45vw;           
-  }
-}
-
 /* Construction Tape */
 .uc-tape {
   position: absolute;
@@ -59,6 +49,23 @@
   top: 37.9vh;
   z-index: 1;
   object-fit: contain;
+}
+
+@media screen and (max-aspect-ratio: 1440/818) {
+  .uc-goose {
+    width: 50vw;
+    height: auto;       
+    top: auto;
+    bottom: 0;           
+    left: 45vw;           
+  }
+
+  .uc-text {
+    width: 32vw;
+    height: auto;
+    left: 11vw;
+    top: 32vh;
+  }
 }
 
 /* ==========================
