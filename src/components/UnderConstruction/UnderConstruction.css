@@ -1,0 +1,63 @@
+/* Full-screen container */
+.uc-screen {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden; /* Prevent scrolling */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #000; /* or your background */
+}
+
+/* The positioned stacking area */
+.uc-stack {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+/* Bottom Goose (scales with screen) */
+.uc-goose {
+  position: absolute;
+  bottom: 2vh;
+  left: 50%;
+  transform: translateX(-50%);
+  width: min(40vw, 400px);
+  z-index: 1;
+}
+
+/* Construction Tape */
+.uc-tape {
+  position: absolute;
+  top: 30vh;
+  left: 50%;
+  transform: translateX(-50%);
+  width: min(60vw, 600px);
+  z-index: 2;
+}
+
+/* Title Text */
+.uc-text-1 {
+  position: absolute;
+  top: 18vh;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 3;
+  color: white;
+  text-align: center;
+  font-size: max(2vw, 1.2rem);
+}
+
+/* Subtitle Text */
+.uc-text-2 {
+  position: absolute;
+  top: 52vh;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 4;
+  color: white;
+  text-align: center;
+  width: 70vw;
+  max-width: 800px;
+  font-size: max(1.2vw, 0.9rem);
+}
