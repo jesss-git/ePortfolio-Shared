@@ -28,6 +28,17 @@
   object-fit: contain;
 }
 
+/* When the screen becomes taller than the design */
+@media screen and (max-aspect-ratio: 1440/818) {
+  .uc-goose {
+    width: auto;
+    height: 100vh;       /* Fill screen height */
+    top: auto;
+    bottom: 0;           /* Attach to bottom */
+    left: 50%;           /* approximate centering */
+    transform: translateX(-20%); /* adjust until visually correct */
+  }
+}
 
 
 /* Construction Tape */
@@ -40,8 +51,6 @@
   z-index: 3;
   object-fit: cover; /* IMPORTANT: keeps it filling the entire screen */
 }
-
-
 
 /* Title Text */
 .uc-text {
