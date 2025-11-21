@@ -4,6 +4,7 @@ import goose from "../../assets/UnderConstruction/Construction-Goose.png";
 import tape from "../../assets/UnderConstruction/Construction-Tape.png";
 import coming from "../../assets/UnderConstruction/COMING-SOON.png";
 import stay from "../../assets/UnderConstruction/STAY-TUNED!.png";
+import uctext from "../../assets/UnderConstruction/text.png";
 
 export default function UnderConstruction() {
   return (
@@ -17,11 +18,8 @@ export default function UnderConstruction() {
         <img src={tape} alt="Construction Tape" className="uc-tape" />
 
         {/* Next Layer - Text 1 */}
-        <img src={coming} alt="Coming Soon" className="uc-text-1" />
+        <img src={uctext} alt="Coming Soon" className="uc-text" />
 
-        {/* Top Layer - Final Text */}
-        <img src={stay} alt="Stay Tuned" className="uc-text-2" />
-        
       </div>
     </section>
   );
