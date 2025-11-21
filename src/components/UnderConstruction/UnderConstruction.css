@@ -41,25 +41,19 @@
 /* Title Text */
 .uc-text-1 {
   position: absolute;
-  top: 18vh;
-  left: 50%;
-  transform: translateX(-50%);
+  width: 691px;
+  height: 202px;
+  left: 179px;
+  bottom: 310px;
   z-index: 3;
-  color: white;
-  text-align: center;
-  font-size: max(2vw, 1.2rem);
 }
 
 /* Subtitle Text */
 .uc-text-2 {
   position: absolute;
-  top: 52vh;
-  left: 50%;
-  transform: translateX(-50%);
+  width: 212px;
+  height: 34;
+  left: 182px;
+  bottom: 536px;
   z-index: 4;
-  color: white;
-  text-align: center;
-  width: 70vw;
-  max-width: 800px;
-  font-size: max(1.2vw, 0.9rem);
 }
