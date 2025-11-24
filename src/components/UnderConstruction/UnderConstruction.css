@@ -23,7 +23,7 @@
   width: 45.75vw;
   height: 91.25vh;
   left: 44.5vw;
-  top: 8.75vh;
+  bottom: -8.75vh;
   z-index: 2;
   object-fit: contain;
 }
