@@ -71,8 +71,8 @@
 
   /* Goose grows and shifts down */
   .uc-goose {
-    width: 75vw;
-    height: auto;
+    width: auto;
+    height: 75vh;
     left: 35vw;
     bottom: 0;
     top: auto;
