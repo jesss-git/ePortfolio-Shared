@@ -24,7 +24,7 @@
   height: 91.25vh;
   left: 44.5vw;
   bottom: -8.75vh;
-  z-index: 2;
+  z-index: 1;
   object-fit: contain;
 }
 
@@ -46,7 +46,7 @@
   height: 31.78vh;
   left: 12.43vw;
   top: 37.9vh;
-  z-index: 1;
+  z-index: 2;
   object-fit: contain;
 }
 
@@ -140,8 +140,8 @@
   /* Goose centered and larger */
   .uc-goose {
     width: auto;
-    height: 115vh;
-    left: -50%;
+    height: 105vh;
+    left: -70%;
     bottom: 0;
     top: auto;
   }
