@@ -57,7 +57,7 @@
     height: 110vh;    
     bottom: 0;   
     top: auto;          
-    left: -10%;           
+    left: 0%;           
   }
 
   .uc-text {
@@ -74,7 +74,7 @@
   .uc-goose {
     width: auto;
     height: 110vh;
-    left: -20%;
+    left: 0%;
     bottom: 0;
     top: auto;
   }
@@ -97,7 +97,7 @@
   .uc-goose {
     width: auto;
     height: 105vh;
-    left: 0%;
+    left: 8%;
     bottom: 0;
     top: auto;
   }
