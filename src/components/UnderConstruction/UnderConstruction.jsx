@@ -14,7 +14,7 @@ export default function UnderConstruction() {
       <div className="uc-stack">
         
         {/* Bottom Layer - Goose */}
-        <img src={newGoose} alt="Goose" className="uc-goose" />
+        <img src={Goose} alt="Goose" className="uc-goose" />
         
         {/* Next Layer - Construction Tape */}
         <img src={tape} alt="Construction Tape" className="uc-tape" />
