@@ -110,6 +110,26 @@
 
 }
 
+@media (max-width: 740px) {
+
+  /* Goose grows and shifts down */
+  .uc-goose {
+    width: auto;
+    height: 105vh;
+    left: -25%;
+    bottom: 0;
+    top: auto;
+  }
+
+  .uc-text {
+    width: 50vw;
+    height: auto;
+    left: 10vw;
+    top: 25vh;
+  }
+
+}
+
 
 
 /* ==========================
