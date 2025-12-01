@@ -6,6 +6,7 @@ import coming from "../../assets/UnderConstruction/COMING-SOON.png";
 import stay from "../../assets/UnderConstruction/STAY-TUNED!.png";
 import uctext from "../../assets/UnderConstruction/text.png";
 import newGoose from "../../assets/UnderConstruction/NewGoose.png";
+import Goose from "../../assets/UnderConstruction/Final-Construction-Goose.png";
 
 export default function UnderConstruction() {
   return (
