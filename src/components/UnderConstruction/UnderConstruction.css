@@ -22,7 +22,7 @@
   position: absolute;
   width: auto;
   height: 110vh;
-  left: -10%;
+  left: 20%;
   bottom: 0;
   top: auto;
   z-index: 1;
@@ -57,7 +57,7 @@
     height: 110vh;    
     bottom: 0;   
     top: auto;          
-    left: 20%;           
+    left: 10%;           
   }
 
   .uc-text {
