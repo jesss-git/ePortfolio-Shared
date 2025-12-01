@@ -120,8 +120,8 @@
   /* Goose centered and larger */
   .uc-goose {
     width: auto;
-    height: 60vh;
-    left: 20%;
+    height: 100vh;
+    left: -60%;
     bottom: 0;
     top: auto;
   }
