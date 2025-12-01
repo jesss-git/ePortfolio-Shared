@@ -20,10 +20,11 @@
 /* Bottom Goose (scales with screen) */
 .uc-goose {
   position: absolute;
-  width: 45.75vw;
-  height: 91.25vh;
-  left: 44.5vw;
-  bottom: -8.75vh;
+  width: auto;
+  height: 110vh;
+  left: -10%;
+  bottom: 0;
+  top: auto;
   z-index: 1;
   object-fit: contain;
 }
@@ -53,10 +54,10 @@
 @media screen and (max-aspect-ratio: 1440/818) {
   .uc-goose {
     width: auto;
-    height: 85vh;    
+    height: 110vh;    
     bottom: 0;   
     top: auto;          
-    left: 45vw;           
+    left: -10%;           
   }
 
   .uc-text {
@@ -73,7 +74,7 @@
   .uc-goose {
     width: auto;
     height: 110vh;
-    left: -15%;
+    left: -20%;
     bottom: 0;
     top: auto;
   }
@@ -141,7 +142,7 @@
   .uc-goose {
     width: auto;
     height: 100vh;
-    left: -57%;
+    left: -50%;
     bottom: 0;
     top: auto;
   }
