@@ -73,7 +73,7 @@
   .uc-goose {
     width: auto;
     height: 110vh;
-    left: -20%;
+    left: -15%;
     bottom: 0;
     top: auto;
   }
@@ -135,6 +135,26 @@
 /* ==========================
    MOBILE (approx < 600px)
 ========================== */
+@media (max-width: 675px) {
+
+  /* Goose centered and larger */
+  .uc-goose {
+    width: auto;
+    height: 100vh;
+    left: -57%;
+    bottom: 0;
+    top: auto;
+  }
+
+  /* Text moves above goose */
+  .uc-text {
+    width: 70vw;
+    height: auto;
+    left: 10vw;
+    top: 15vh;
+  }
+}
+
 @media (max-width: 600px) {
 
   /* Goose centered and larger */
