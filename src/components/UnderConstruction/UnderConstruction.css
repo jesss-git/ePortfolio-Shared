@@ -114,25 +114,25 @@
 
 @media (max-width: 540px) {
   .uc-goose {
-    right: -110%;
+    right: -100%;
   }
 }
 
 @media (max-width: 470px) {
   .uc-goose {
-    right: -125%;
+    right: -110%;
   }
 }
 
 @media (max-width: 440px) {
   .uc-goose {
-    right: -135%;
+    right: -125%;
   }
 }
 
 @media (max-width: 420px) {
   .uc-goose {
-    right: -147.5%;
+    right: -137.5%;
   }
 }
 
