@@ -130,6 +130,12 @@
   }
 }
 
+@media (max-width: 420px) {
+  .uc-goose {
+    right: -147.5%;
+  }
+}
+
 /* @media screen and (max-aspect-ratio: 1440/818) {
   .uc-goose {
     width: auto;
