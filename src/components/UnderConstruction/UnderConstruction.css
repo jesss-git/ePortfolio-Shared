@@ -76,7 +76,6 @@
 
 @media (max-width: 985px) {
   .uc-goose {
-    height: 100vh;
     right: -50%;
   }
   .uc-text {
@@ -87,7 +86,6 @@
 
 @media (max-width: 900px) {
   .uc-goose {
-    height: 100vh;
     right: -55%;
   }
   .uc-text {
@@ -98,15 +96,19 @@
 
 @media (max-width: 775px) {
   .uc-goose {
-    height: 100vh;
     right: -65%;
   }
 }
 
 @media (max-width: 675px) {
   .uc-goose {
-    height: 100vh;
-    right: -75%;
+    right: -78%;
+  }
+}
+
+@media (max-width: 590px) {
+  .uc-goose {
+    right: -88%;
   }
 }
 
