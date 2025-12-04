@@ -60,9 +60,17 @@
 @media (max-width: 1414px) {
   .uc-goose {
     left: 5%;
-  
-    width: auto;
-    height: 110vh;
+  }
+}
+
+@media (max-width: 1185px) {
+  .uc-goose {
+    left: 15%;
+  }
+  .uc-text {
+    top: 25vh;
+    width: 50vw;
+    height: auto;
   }
 }
 
