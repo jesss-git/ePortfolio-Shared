@@ -65,6 +65,7 @@
 
 @media (max-width: 1185px) {
   .uc-goose {
+    height: 100vh;
     right: -40%;
   }
   .uc-text {
