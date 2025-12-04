@@ -120,7 +120,13 @@
 
 @media (max-width: 470px) {
   .uc-goose {
-    right: -120%;
+    right: -125%;
+  }
+}
+
+@media (max-width: 440px) {
+  .uc-goose {
+    right: -135%;
   }
 }
 
