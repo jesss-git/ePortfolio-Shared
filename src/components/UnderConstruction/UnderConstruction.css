@@ -50,8 +50,8 @@
   top: 37.9vh;
   left: 12.43vw;
 
-  width: 29.375vw;
-  height: 31.78vh;
+  width: 35vw;
+  height: auto;
 
   object-fit: contain;
   z-index: 2;
@@ -65,12 +65,11 @@
 
 @media (max-width: 1185px) {
   .uc-goose {
-    left: 15%;
+    left: 20%;
   }
   .uc-text {
     top: 25vh;
-    width: 50vw;
-    height: auto;
+    width: 40vw;
   }
 }
 
