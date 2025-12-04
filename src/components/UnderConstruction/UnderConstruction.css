@@ -101,9 +101,12 @@
     height: 100vh;
     right: -65%;
   }
-  .uc-text {
-    top: 13vh;
-    width: 50vw;
+}
+
+@media (max-width: 675px) {
+  .uc-goose {
+    height: 100vh;
+    right: -75%;
   }
 }
 
