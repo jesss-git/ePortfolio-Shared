@@ -96,6 +96,17 @@
   }
 }
 
+@media (max-width: 775px) {
+  .uc-goose {
+    height: 100vh;
+    right: -60%;
+  }
+  .uc-text {
+    top: 13vh;
+    width: 50vw;
+  }
+}
+
 /* @media screen and (max-aspect-ratio: 1440/818) {
   .uc-goose {
     width: auto;
