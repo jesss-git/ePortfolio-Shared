@@ -20,38 +20,44 @@
 /* Bottom Goose (scales with screen) */
 .uc-goose {
   position: absolute;
-  width: auto;
-  height: 110vh;
-  left: 20%;
   bottom: 0;
   top: auto;
+  left: 20%;
+
+  width: auto;
+  height: 110vh;
+  
+  object-fit: cover;
   z-index: 1;
-  object-fit: contain;
 }
 
 /* Construction Tape */
 .uc-tape {
   position: absolute;
+  top: 0;
+  left: 0;
+
   width: 100vw;
   height: 100vh;
-  left: 0;
-  top: 0;
+
+  object-fit: cover;
   z-index: 3;
-  object-fit: cover; /* IMPORTANT: keeps it filling the entire screen */
 }
 
 /* Title Text */
 .uc-text {
   position: absolute;
+  top: 37.9vh;
+  left: 12.43vw;
+
   width: 29.375vw;
   height: 31.78vh;
-  left: 12.43vw;
-  top: 37.9vh;
+
+  object-fit: cover;
   z-index: 2;
-  object-fit: contain;
 }
 
-@media screen and (max-aspect-ratio: 1440/818) {
+/* @media screen and (max-aspect-ratio: 1440/818) {
   .uc-goose {
     width: auto;
     height: 110vh;    
@@ -70,7 +76,6 @@
 
 @media (max-width: 1024px) {
 
-  /* Goose grows and shifts down */
   .uc-goose {
     width: auto;
     height: 110vh;
@@ -90,7 +95,6 @@
 
 @media (max-width: 900px) {
 
-  /* Goose grows and shifts down */
   .uc-goose {
     width: auto;
     height: 110vh;
@@ -111,9 +115,8 @@
 /* ==========================
    TABLET (approx < 1024px)
 ========================== */
-@media (max-width: 815px) {
+/* @media (max-width: 815px) {
 
-  /* Goose grows and shifts down */
   .uc-goose {
     width: auto;
     height: 105vh;
@@ -133,7 +136,6 @@
 
 @media (max-width: 740px) {
 
-  /* Goose grows and shifts down */
   .uc-goose {
     width: auto;
     height: 105vh;
@@ -156,9 +158,8 @@
 /* ==========================
    MOBILE (approx < 600px)
 ========================== */
-@media (max-width: 675px) {
+/* @media (max-width: 675px) {
 
-  /* Goose centered and larger */
   .uc-goose {
     width: auto;
     height: 100vh;
@@ -167,7 +168,6 @@
     top: auto;
   }
 
-  /* Text moves above goose */
   .uc-text {
     width: 70vw;
     height: auto;
@@ -178,7 +178,6 @@
 
 @media (max-width: 640px) {
 
-  /* Goose centered and larger */
   .uc-goose {
     width: auto;
     height: 100vh;
@@ -187,7 +186,6 @@
     top: auto;
   }
 
-  /* Text moves above goose */
   .uc-text {
     width: 70vw;
     height: auto;
@@ -198,7 +196,6 @@
 
 @media (max-width: 600px) {
 
-  /* Goose centered and larger */
   .uc-goose {
     width: auto;
     height: 100vh;
@@ -207,7 +204,6 @@
     top: auto;
   }
 
-  /* Text moves above goose */
   .uc-text {
     width: 70vw;
     height: auto;
@@ -218,7 +214,6 @@
 
 @media (max-width: 575px) {
 
-  /* Goose centered and larger */
   .uc-goose {
     width: auto;
     height: 100vh;
@@ -227,7 +222,6 @@
     top: auto;
   }
 
-  /* Text moves above goose */
   .uc-text {
     width: 70vw;
     height: auto;
@@ -238,7 +232,6 @@
 
 @media (max-width: 550px) {
 
-  /* Goose centered and larger */
   .uc-goose {
     width: auto;
     height: 100vh;
@@ -247,7 +240,6 @@
     top: auto;
   }
 
-  /* Text moves above goose */
   .uc-text {
     width: 70vw;
     height: auto;
@@ -258,7 +250,6 @@
 
 @media (max-width: 500px) {
 
-  /* Goose centered and larger */
   .uc-goose {
     width: auto;
     height: 100vh;
@@ -267,7 +258,6 @@
     top: auto;
   }
 
-  /* Text moves above goose */
   .uc-text {
     width: 70vw;
     height: auto;
@@ -278,7 +268,6 @@
 
 @media (max-width: 435px) {
 
-  /* Goose centered and larger */
   .uc-goose {
     width: auto;
     height: 100vh;
@@ -287,7 +276,6 @@
     top: auto;
   }
 
-  /* Text moves above goose */
   .uc-text {
     width: 70vw;
     height: auto;
@@ -298,7 +286,6 @@
 
 @media (max-width: 405px) {
 
-  /* Goose centered and larger */
   .uc-goose {
     width: auto;
     height: 100vh;
@@ -307,7 +294,6 @@
     top: auto;
   }
 
-  /* Text moves above goose */
   .uc-text {
     width: 70vw;
     height: auto;
@@ -315,4 +301,4 @@
     top: 15vh;
   }
 }
-
+ */ 
