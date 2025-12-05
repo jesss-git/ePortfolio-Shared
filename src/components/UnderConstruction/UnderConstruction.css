@@ -47,7 +47,7 @@
   height: 100vh;
 
   object-fit: cover;
-  object-position: left;
+  object-position: center;
   z-index: 3;
 }
 
@@ -55,7 +55,7 @@
 .uc-text {
   position: absolute;
   top: 25%;
-  padding-left: 10%;
+  /* padding-left: 10%; */
   /* align-items: left; */
   /* padding-left: 12%; */
   /* left: 12.43vw; */
@@ -64,7 +64,7 @@
   height: auto;
 
   object-fit: cover;
-  object-position: center;
+  object-position: left;
   z-index: 2;
 }
 
