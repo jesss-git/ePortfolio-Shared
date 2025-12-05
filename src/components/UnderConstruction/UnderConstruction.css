@@ -21,11 +21,11 @@
 .uc-goose {
   position: absolute;
   bottom: 0;
-  top: auto;
+  /* top: auto; */
   /* right: -25%; */
 
-  width: auto;
-  height: 110vh;
+  width: 100vw;
+  height: auto;
   
   object-fit: cover;
   object-position: center;
@@ -54,7 +54,7 @@
   /* padding-left: 12%; */
   /* left: 12.43vw; */
 
-  width: 35vw;
+  width: 40vw;
   height: auto;
 
   object-fit: cover;
