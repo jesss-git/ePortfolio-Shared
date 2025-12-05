@@ -28,7 +28,7 @@
   height: 110vh;
   
   display: flex;
-  object-fit: cover;
+  /* object-fit: cover; */
   object-position: center;
   z-index: 1;
 }
