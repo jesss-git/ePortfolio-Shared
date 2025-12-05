@@ -55,6 +55,7 @@
 .uc-text {
   position: absolute;
   top: 25%;
+  left: -50%;
   /* padding-left: 10%; */
   /* align-items: left; */
   /* padding-left: 12%; */
@@ -64,7 +65,7 @@
   height: auto;
 
   object-fit: cover;
-  object-position: left;
+  /* object-position: left; */
   z-index: 2;
 }
 
