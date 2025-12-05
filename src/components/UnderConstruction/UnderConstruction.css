@@ -24,9 +24,10 @@
   /* top: auto; */
   /* right: -25%; */
 
-  width: 100vw;
-  height: auto;
+  width: auto;
+  height: 110vh;
   
+  display: flex;
   object-fit: cover;
   object-position: center;
   z-index: 1;
