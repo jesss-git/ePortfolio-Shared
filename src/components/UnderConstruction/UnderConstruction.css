@@ -25,15 +25,16 @@
 .uc-goose {
   position: absolute;
   bottom: 0;
+  right: 10%;
   /* top: auto; */
   /* right: -25%; */
 
   width: auto;
-  height: 110vh;
+  height: 105vh;
   
-  display: flex;
-  /* object-fit: cover; */
-  object-position: center;
+  /* display: flex; */
+  object-fit: cover;
+  /* object-position: center; */
   z-index: 1;
 }
 
@@ -54,14 +55,14 @@
 /* Title Text */
 .uc-text {
   position: absolute;
-  top: 25%;
+  top: 20%;
   left: 10%;
   /* padding-left: 10%; */
   /* align-items: left; */
   /* padding-left: 12%; */
   /* left: 12.43vw; */
 
-  width: 40vw;
+  width: 50vw;
   height: auto;
 
   object-fit: cover;
