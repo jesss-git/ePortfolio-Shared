@@ -1,5 +1,6 @@
 /* Full-screen container */
 .uc-container {
+  position: relative;
   width: 100vw;
   height: 100vh;
   overflow: hidden; /* Prevent scrolling */
@@ -11,7 +12,7 @@
 
 /* The positioned stacking area */
 .uc-stack {
-  position: relative;
+  position: absolute;
   width: 100vw;
   height: 100vh;
   overflow: hidden;
@@ -49,7 +50,7 @@
 /* Title Text */
 .uc-text {
   position: absolute;
-  top: 37.9%;
+  top: 25%;
   padding-left: 10%;
   /* align-items: left; */
   /* padding-left: 12%; */
