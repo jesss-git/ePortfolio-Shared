@@ -41,12 +41,13 @@
 .uc-tape {
   position: absolute;
   top: 0;
-  left: 0;
+  /* left: -40%; */
 
   width: 100vw;
   height: 100vh;
 
   object-fit: cover;
+  object-position: left;
   z-index: 3;
 }
 
