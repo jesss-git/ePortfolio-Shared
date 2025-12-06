@@ -24,7 +24,7 @@
 .uc-goose {
   position: absolute;
   bottom: 0;
-  transform: translateX(100px);
+  transform: translateX(150px);
 
   width: auto;
   height: 100vh;
@@ -59,9 +59,9 @@
   z-index: 2;
 }
 
-@media (max-height: 850px) {
+@media (max-height: 800px) {
   .uc-goose {
-    transform: translateX(80px);
+    transform: translateX(50px);
   }
 }
 
