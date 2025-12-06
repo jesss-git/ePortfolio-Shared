@@ -25,7 +25,9 @@
 .uc-goose {
   position: absolute;
   bottom: 0;
-  right: -20%;
+  left: 50%;
+  transform: translateX(10%);
+  /* right: -20%; */
   /* top: auto; */
   /* right: -25%; */
 
@@ -69,6 +71,7 @@
   /* object-position: left; */
   z-index: 2;
 }
+
 
 /* @media (max-width: 1414px) {
   .uc-goose {
