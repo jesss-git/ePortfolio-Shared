@@ -61,7 +61,7 @@
 
 @media (max-height: 850px) {
   .uc-goose {
-    transform: translateX(30px);
+    transform: translateX(60px);
   }
 }
 
