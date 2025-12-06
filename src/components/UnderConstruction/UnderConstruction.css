@@ -7,7 +7,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #073C4E; /* or your background */
+  background: #073C4E; 
 }
 
 /* The positioned stacking area */
@@ -18,25 +18,18 @@
 
   display: flex;
   justify-content: center;
-  /* overflow: hidden; */
 }
 
 /* Bottom Goose (scales with screen) */
 .uc-goose {
   position: absolute;
   bottom: 0;
-  /* left: 50%; */
   transform: translateX(100px);
-  /* right: -20%; */
-  /* top: auto; */
-  /* right: -25%; */
 
   width: auto;
   height: 100vh;
   
-  /* display: flex; */
   object-fit: cover;
-  /* object-position: center; */
   z-index: 1;
 }
 
@@ -44,7 +37,6 @@
 .uc-tape {
   position: absolute;
   top: 0;
-  /* left: -40%; */
 
   width: 100vw;
   height: 100vh;
@@ -59,16 +51,11 @@
   position: absolute;
   top: 20%;
   left: 10%;
-  /* padding-left: 10%; */
-  /* align-items: left; */
-  /* padding-left: 12%; */
-  /* left: 12.43vw; */
 
   width: 50vw;
   height: auto;
 
   object-fit: cover;
-  /* object-position: left; */
   z-index: 2;
 }
 
